@@ -6,8 +6,11 @@
  */
 
 // any CSS you require will output into a single css file (app.css in this case)
-require('../css/app.css');
-require('bootstrap/dist/css/bootstrap.css');
+//import '../css/app.css';
+import '../scss/app.scss';
+import 'bootstrap/dist/css/bootstrap.css';
+import '../scss/app.scss';
+import '../images/backgrounds/part-dieu.png';
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
 // var $ = require('jquery');

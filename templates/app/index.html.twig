@@ -1,7 +1,13 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}{{ parent() }} {{ hello }}!{% endblock %}
+{% block title %}Diffusion M2I{% endblock %}
 
-{% block body %}
-    <h1>{{ hello }}! ✅</h1>
+{% block main %}
+    <a href="{{ path('login') }}">Lien</a>
+    <p>
+        Bienvenue dans notre centre de formation
+    </p>
+    {#<img src="build/assets/images/backgrounds/part-dieu.png">#}
+
+
 {% endblock %}

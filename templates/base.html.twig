@@ -2,13 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}{% endblock %}</title>
         <base href="{{ asset('') }}">
 {% block stylesheets %}
-            <link rel="stylesheet" type="text/css" href="index.css" />
+            <link rel="stylesheet" type="text/css" href="build/app.css" />
 {% endblock %}
     </head>
-    <body id="{% block body_id %}{% endblock %}">
+    <body id="{% block body_id %}app{% endblock %}">
 
     <header>
 {% block header %}{% endblock %}
