@@ -9,8 +9,11 @@
 //import '../css/app.css';
 import '../scss/app.scss';
 import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootstrap';
 import '../scss/app.scss';
 import '../images/backgrounds/part-dieu.png';
+import '../images/m2i.png';
+import '../images/pictogrammes/Reglages.png'
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
 // var $ = require('jquery');

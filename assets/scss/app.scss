@@ -1,10 +1,40 @@
 body {
-    color: black;
-    background-color: lightgray;
+  color: black;
+  background-color: #757575;
+}
+
+#app header{
+  z-index: 9;
+  position: relative;
+  padding: 1em;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+header{
+  align-items: center;
+}
+
+#app header, #app main{
+  z-index: 9;
+  position: relative;
+  padding: 1em;
+}
+
+#app main{
+  padding: 3em;
 }
 
 #app footer{
-    background-image: url('images/backgrounds/part-dieu.png');
-    width: 100%;
-    height: 100vh;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-image: url('images/backgrounds/part-dieu.png');
 }

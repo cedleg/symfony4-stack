@@ -8,17 +8,17 @@
             <link rel="stylesheet" type="text/css" href="build/app.css" />
 {% endblock %}
     </head>
-    <body id="{% block body_id %}app{% endblock %}">
+    <body id="{% block body_id %}{% endblock %}">
 
-    <header>
+    <header class="row">
 {% block header %}{% endblock %}
     </header>
 
-    <main>
-{% block main %}Bonjour{% endblock %}
+    <main class="row">
+{% block main %}{% endblock %}
     </main>
 
-    <footer>
+    <footer class="row">
 {% block footer %}{% endblock %}
     </footer>
 
