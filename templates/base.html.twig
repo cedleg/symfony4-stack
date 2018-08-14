@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <base href="{{ asset('') }}">
+{% block stylesheets %}
+            <link rel="stylesheet" type="text/css" href="index.css" />
+{% endblock %}
+    </head>
+    <body id="{% block body_id %}{% endblock %}">
+
+    <header>
+{% block header %}{% endblock %}
+    </header>
+
+    <main>
+{% block main %}Bonjour{% endblock %}
+    </main>
+
+    <footer>
+{% block footer %}{% endblock %}
+    </footer>
+
+{% block javascripts %}
+            <link type="text/javascript" src="index.js" />
+{% endblock %}
+
+    </body>
+</html>

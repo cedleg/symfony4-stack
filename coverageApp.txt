@@ -1,0 +1,12 @@
+
+
+Code Coverage Report:   
+  2018-08-13 22:49:07   
+                        
+ Summary:               
+  Classes: 20.00% (1/5) 
+  Methods:  6.67% (1/15)
+  Lines:    1.56% (1/64)
+
+\App\util::App\util\Calculator
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  1/  1)

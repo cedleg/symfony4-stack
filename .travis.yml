@@ -1,0 +1,15 @@
+language: php
+
+# Cache composer packages so "composer install" is faster
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+
+php:
+  - '7.2'
+
+install:
+  - composer install --dev
+
+script:
+  - ./vendor/bin/simple-phpunit
