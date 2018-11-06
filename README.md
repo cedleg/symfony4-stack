@@ -27,7 +27,7 @@ Pass the tests
 ```
 php vendor/bin/simple-phpunit
 ```
-##  Generate coverate creport
+##  Generate coverate report
 ```
 php vendor/bin/simple-phpunit --coverage-text=coverageApp.txt
 ```
